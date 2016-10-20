@@ -430,7 +430,7 @@
       - section4.2.8
 
   - name: 4.3 Wireless Networking (Not Scored)
-    debug: msg" remove all wireless network scripts if not needed. Check with iw list"
+    debug: msg=" remove all wireless network scripts if not needed. Check with iw list"
     tags:
       - notscored
       - section4.3
