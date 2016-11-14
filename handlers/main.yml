@@ -1,5 +1,5 @@
   - name: Reload auditd Rules
-    service: name=auditd state=restarted
+    shell: service auditd restart
 
   - name: Reload prelinking
     command: /usr/sbin/prelink -ua
